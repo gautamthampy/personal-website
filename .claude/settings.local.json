@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p public)",
+      "Bash(cp _preserve/public/avatar_Gautam.jpeg _preserve/public/resume.pdf _preserve/public/landing-memojis.png _preserve/public/final_memojis.webm _preserve/public/final_memojis_ios.mp4 public/)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(cmd /c \"where npm.cmd\")",
+      "Bash(cmd /c \"where npm\")",
+      "Bash(node node_modules/next/dist/bin/next build)",
+      "Bash(npx vercel:*)"
+    ]
+  }
+}

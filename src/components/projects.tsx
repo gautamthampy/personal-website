@@ -44,14 +44,18 @@ function ProjectCard({
 }) {
   return (
     <FadeIn delay={index * 0.07}>
-      <motion.div
+      <motion.a
+        href={project.github}
+        target="_blank"
+        rel="noopener noreferrer"
         whileHover={{ y: -4 }}
         transition={{ duration: 0.2, ease: 'easeOut' }}
-        className={`group relative bg-[#141414] border border-[#262626] rounded-2xl p-6 h-full flex flex-col cursor-default
+        className={`group relative bg-[#141414] border border-[#262626] rounded-2xl p-6 h-full flex flex-col cursor-pointer
           hover:border-[rgba(212,168,83,0.3)] transition-colors duration-300 ${large ? 'md:p-8' : ''}`}
         style={{
           boxShadow: '0 0 0 0 rgba(212,168,83,0)',
           transition: 'border-color 0.3s, box-shadow 0.3s, transform 0.2s',
+          textDecoration: 'none',
         }}
         onHoverStart={(e) => {
           (e.target as HTMLElement).style?.setProperty?.(
@@ -92,7 +96,7 @@ function ProjectCard({
             </span>
           ))}
         </div>
-      </motion.div>
+      </motion.a>
     </FadeIn>
   );
 }

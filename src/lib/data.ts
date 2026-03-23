@@ -72,17 +72,6 @@ export const experiences = [
 
 export const projects = [
   {
-    title: 'SmartAuditAI',
-    tagline: 'AI-powered smart contract risk analysis',
-    description:
-      'Built an AI smart contract analyzer using RAG with Azure AI Search and LangChain, enabling natural language risk assessment over 100+ blockchain audit reports and reducing manual review time by 60%. Integrated Semantic Kernel agents for NER, classification, and interactive querying.',
-    tech: ['Python', 'Azure AI Search', 'LangChain', 'Semantic Kernel', 'RAG'],
-    category: 'AI / Blockchain',
-    year: '2025',
-    featured: true,
-    github: 'https://github.com/gautamthampy',
-  },
-  {
     title: 'InventorySync',
     tagline: 'Redis-backed distributed sync engine',
     description:
@@ -91,7 +80,7 @@ export const projects = [
     category: 'Backend Infrastructure',
     year: '2025',
     featured: true,
-    github: 'https://github.com/gautamthampy',
+    github: 'https://github.com/gautamthampy/inventory-sync',
   },
   {
     title: 'Smart Bike Lock',
@@ -101,41 +90,8 @@ export const projects = [
     tech: ['ESP32', 'FreeRTOS', 'AWS IoT', 'MQTT', 'BLE', 'DynamoDB'],
     category: 'Embedded / IoT',
     year: '2025',
-    featured: false,
-    github: 'https://github.com/gautamthampy',
-  },
-  {
-    title: 'LLaMA3 News Summarizer',
-    tagline: 'PEFT fine-tuning, ROUGE-L 34',
-    description:
-      'Fine-tuned LLaMA3 on CNN/DailyMail using PEFT with LoRA, reducing GPU memory usage by 40% while achieving a ROUGE-L score of 34 — outperforming baselines by 10% in coherence and conciseness.',
-    tech: ['Python', 'PyTorch', 'LLaMA3', 'LoRA', 'PEFT', 'HuggingFace'],
-    category: 'Machine Learning',
-    year: '2024',
-    featured: false,
-    github: 'https://github.com/gautamthampy',
-  },
-  {
-    title: 'SurfStore',
-    tagline: 'Fault-tolerant distributed file storage',
-    description:
-      'Fault-tolerant file storage service in Golang that syncs files across devices using Consistent Hashing, RAFT consensus, and gRPC — built as part of a distributed systems course at SJSU.',
-    tech: ['Golang', 'gRPC', 'RAFT', 'Consistent Hashing'],
-    category: 'Distributed Systems',
-    year: '2024',
-    featured: false,
-    github: 'https://github.com/gautamthampy',
-  },
-  {
-    title: 'QuizMaster',
-    tagline: 'Serverless LLM quiz generation',
-    description:
-      'Serverless web app using ReactJS, AWS Lambda, API Gateway, and DynamoDB, reducing backend costs by 40% and improving deploy speed by 50%. LLM-powered RAG pipeline generates tailored quizzes from user-uploaded PDFs.',
-    tech: ['React', 'AWS Lambda', 'DynamoDB', 'API Gateway', 'RAG'],
-    category: 'Full-Stack / AI',
-    year: '2024',
-    featured: false,
-    github: 'https://github.com/gautamthampy',
+    featured: true,
+    github: 'https://github.com/gautamthampy/Smart-Bike-Lock',
   },
 ];
 

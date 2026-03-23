@@ -7,7 +7,19 @@
       "Bash(cmd /c \"where npm.cmd\")",
       "Bash(cmd /c \"where npm\")",
       "Bash(node node_modules/next/dist/bin/next build)",
-      "Bash(npx vercel:*)"
+      "Bash(npx vercel:*)",
+      "Bash(npm list:*)",
+      "Bash(pip install:*)",
+      "Bash(curl -s \"https://api.github.com/users/gautamthampy/repos?per_page=100\")",
+      "Bash(dir \"C:\\\\Users\\\\gauta\\\\Downloads\" /B /O:D)",
+      "Bash(findstr /i \".jpg .jpeg .png .webp\")",
+      "Bash(ls C:UsersgautaDownloads/*.jpg C:UsersgautaDownloads/*.jpeg C:UsersgautaDownloads/*.png)",
+      "Bash(grep -iE \"\\\\.\\(jpg|jpeg|png|webp\\)$\")",
+      "Bash(sort -t'.' -k1)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" https://api.github.com/repos/gautamthampy/inventory-sync)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" https://api.github.com/repos/gautamthampy/Smart-Bike-Lock)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" https://api.github.com/repos/gautamthampy/quizMaster_aws)",
+      "Bash(ls -la /c/Users/gauta/Downloads/*.jpg /c/Users/gauta/Downloads/*.jpeg /c/Users/gauta/Downloads/*.png)"
     ]
   }
 }
